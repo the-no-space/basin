@@ -1,0 +1,8 @@
+# 二进制产物：不进 git，经 GitHub Release 分发。
+# 这些目录是本地暂存（构建后存放），供 tools/publish.sh 上传到 Release。
+plugins/
+releases/
+
+# 系统垃圾
+.DS_Store
+Thumbs.db

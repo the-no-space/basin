@@ -1,0 +1,166 @@
+Basin 归潮 — 软件许可证（中文摘要）
+
+版权所有 © 2026 victor.lai <victor.lai@foxmail.com>，保留所有权利。
+
+本摘要仅为方便阅读，如与下文英文正文有任何不一致，以英文正文为准。本许可证要点如下：
+
+1. 授权性质：本软件当前版本（0.0.x）由作者免费提供使用，授权为免费的、非独占的、不可转让的、可撤销的。个人与机构（含商业环境内部使用）均可免费使用。
+2. 免费但不开源：本软件不公开源代码。用户获得的是使用许可，而非版权转让。
+3. 禁止行为：未经作者书面许可，用户不得进行以下行为——
+   (a) 反向工程、反编译、反汇编；
+   (b) 修改、改编、翻译或创建衍生作品；
+   (c) 二次开发；
+   (d) 二次分发，包括但不限于出售、出租、转授权、再分发，或将本软件打包进任何第三方产品中分发；
+   (e) 绕过本软件的任何技术保护措施或使用限制；
+   (f) 移除、掩盖或篡改本软件中的版权、许可或其他专有声明。
+4. 免责：本软件"按原样"提供，不附带任何保证；在适用法律允许的最大范围内，作者不对任何损害承担责任（详见正文第 7、8 条及单独的 DISCLAIMER）。
+5. 关键条款——许可证变更权：作者保留在任何后续版本中修改本许可证的权利，包括将本软件从免费许可变更为付费许可的权利。后续版本的许可条款以该版本发布时适用的许可证为准；但已合法获取的本版本副本，继续受本版本许可证约束。
+6. 适用法律与争议解决：适用中华人民共和国法律；争议先友好协商，协商不成提交作者所在地有管辖权的人民法院诉讼解决。
+
+════════════════════════════════════════════════════════════════════════════════════════════════════
+
+Basin — Software License
+
+Copyright © 2026 victor.lai <victor.lai@foxmail.com>. All rights reserved.
+
+Version: 1.0
+Effective Date: 2026-06-30
+
+PLEASE READ THIS LICENSE CAREFULLY BEFORE INSTALLING, COPYING, ACCESSING, OR OTHERWISE USING THE SOFTWARE. BY INSTALLING, COPYING, ACCESSING, OR USING THE SOFTWARE IN ANY MANNER, YOU INDICATE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND BY ALL TERMS OF THIS LICENSE. IF YOU DO NOT AGREE TO ANY TERM OF THIS LICENSE, DO NOT INSTALL, COPY, ACCESS, OR USE THE SOFTWARE, AND DELETE ALL COPIES IN YOUR POSSESSION OR CONTROL.
+
+────────────────────────────────
+
+1. Definitions
+
+1.1 "The Software" means the Basin 归潮 desktop application and all of its components, including the executable program, user interface, documentation, plugin system, bundled components, and any accompanying materials, in object/binary form only.
+1.2 "Author" means the copyright holder of the Software, victor.lai.
+1.3 "User" or "You" means any natural person or legal entity that installs, accesses, or uses the Software in any manner.
+1.4 "Source Code" means the human-readable source form of the Software. The Source Code is not publicly available and is not provided under this License.
+1.5 "Derivative Work" means any work derived from or based upon the Software, including any modification, adaptation, translation, transformation, or compilation of the Software.
+1.6 "Redistribute" means to sell, rent, lease, lend, sublicense, publish, mirror, host, repackage, bundle into a third-party product, or otherwise make the Software available to any third party, whether for a fee or free of charge.
+
+────────────────────────────────
+
+2. Copyright Notice
+
+2.1 The Software is protected by copyright and other intellectual property laws. All copyright and other intellectual property rights in and to the Software are exclusively owned by the Author, victor.lai. Copyright © 2026 victor.lai. All rights reserved.
+2.2 The Software is provided free of charge for the current version line (0.0.x), but its Source Code is not publicly available. This License grants You a right to use, not a transfer of copyright or any other intellectual property right.
+2.3 The Software makes use of multiple open-source third-party libraries. The copyright in each such third-party library belongs to its respective owner and is used under its respective license terms. Nothing in this License extends to such third-party libraries.
+2.4 Contact: For any questions, please contact victor.lai@foxmail.com.
+
+────────────────────────────────
+
+3. License Grant
+
+3.1 Grant. Subject to Your continuous compliance with all terms of this License, the Author grants You a limited, personal, revocable, non-exclusive, non-transferable, non-sublicensable, royalty-free license to install and run the Software, in object/binary form only, on devices owned or controlled by You, for the permitted purposes set out in this License.
+3.2 Scope of Use. The Software may be used free of charge by individuals and by organizations, including internal use within commercial organizations. "Internal use" means use by an organization's personnel for the organization's own purposes, and does not include redistributing the Software to third parties or operating a product or service for third parties that incorporates or is powered by the Software.
+3.3 Backup Copies. You may make a reasonable number of copies of the Software solely for backup and archival purposes. All copies must retain all copyright, license, and other proprietary notices intact.
+3.4 Free of Charge; Not Open Source. The Software is provided free of charge for the current version line (0.0.x). The Software is not open-source software: the Source Code is not publicly available, and no right to inspect, obtain, use, or distribute the Source Code is granted under this License.
+3.5 This License is effective until terminated in accordance with Section 11.
+
+────────────────────────────────
+
+4. Restrictions
+
+You shall not, and shall not permit or assist any third party to, do any of the following:
+
+4.1 Reverse Engineering. Reverse engineer, decompile, disassemble, or otherwise attempt to derive or obtain the Source Code, underlying ideas, algorithms, or internal structure of the Software, except to the limited extent that applicable law expressly prohibits such restriction.
+4.2 Modification and Derivative Works. Modify, adapt, translate, transform, or create any Derivative Work of the Software, in whole or in part.
+4.3 Secondary Development. Use the Software, or any part of it, as the basis for developing any other software, product, module, or service, or to create any competing product.
+4.4 Redistribution. Redistribute the Software in any form, in whole or in part, including selling, renting, leasing, lending, sublicensing, publishing, mirroring, hosting, repackaging, or bundling the Software into any third-party product for distribution, whether for a fee or free of charge.
+4.5 Circumvention. Circumvent, disable, tamper with, or bypass any technical protection measure, license enforcement mechanism, authentication, or usage restriction in or related to the Software.
+4.6 Notices. Remove, alter, obscure, or tamper with any copyright, license, trademark, or other proprietary notice, watermark, or label appearing on or within the Software.
+4.7 Unlawful Use. Use the Software for any purpose that is unlawful under applicable law or that infringes the rights of any third party.
+4.8 The exceptions expressly permitted by applicable law that cannot be excluded by contract shall remain available to You to the minimum extent required by such law.
+
+────────────────────────────────
+
+5. License to Future Versions; Reservation of Right to Change License Terms (IMPORTANT)
+
+5.1 This License applies to the version of the Software that You have lawfully acquired under it (the "Covered Version"). A lawfully acquired copy of the Covered Version continues to be governed by this License, even if the Author releases later versions of the Software under different terms.
+5.2 The Author reserves the right, exercisable in the Author's sole discretion and without any obligation to You, to modify the license terms applicable to any subsequent version of the Software (any version released after the Covered Version). Such modifications include, without limitation, the right to change the Software from a free license to a paid license, to impose new restrictions, to change pricing, or to discontinue free availability.
+5.3 The license terms applicable to any subsequent version shall be solely those published by the Author at the time that version is released. Your acquisition, installation, or use of any subsequent version constitutes acceptance of the license terms applicable to that version. If You do not accept the license terms of a subsequent version, Your sole and exclusive remedy is not to acquire, install, or use that subsequent version; this does not affect Your continued use of the Covered Version under this License, subject to its terms.
+5.4 The Author shall have no liability whatsoever to You or any third party for any change in license terms, pricing, or availability of any subsequent version, including any change from free to paid licensing. You acknowledge and agree that no promise, representation, or commitment has been made that any future version will remain free of charge, open source, or available on any particular terms.
+5.5 The Author further reserves the right to modify this License itself for future versions. The version of this License in effect for a given copy of the Software is the version that applied when that copy was lawfully acquired.
+
+────────────────────────────────
+
+6. Lawful Use; BitTorrent/Magnet Links
+
+6.1 You shall use the Software only in lawful contexts and in compliance with all applicable laws and regulations of your country or region.
+6.2 You shall not use the Software to infringe the intellectual property or other legitimate rights of any third party, including by downloading, copying, or distributing copyrighted works without authorization.
+6.3 BitTorrent is a peer-to-peer file transfer protocol with lawful uses; however, laws regarding BT downloads vary by jurisdiction, and some jurisdictions prohibit or restrict transmission of copyrighted content via BT. You are solely responsible for understanding and complying with the laws of your region. You bear all legal liability arising from downloading or transmitting any content via the BT functionality. The Software may upload (seed) downloaded data fragments during BT downloads as an inherent technical characteristic of the protocol; You should independently assess the legal risks of such uploading.
+
+────────────────────────────────
+
+7. Disclaimer of Warranties
+
+7.1 THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE," WITH ALL FAULTS AND ERRORS, AND WITHOUT ANY WARRANTY OF ANY KIND, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE. THE AUTHOR EXPRESSLY DISCLAIMS ALL WARRANTIES, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT, AND ANY WARRANTY THAT THE SOFTWARE WILL MEET YOUR REQUIREMENTS, OPERATE WITHOUT INTERRUPTION OR ERRORS, OR BE COMPATIBLE WITH YOUR SYSTEM.
+7.2 The Author does not warrant that the Software will meet all of Your requirements, that it will operate without interruption or errors, or that all functions will work properly in all system environments.
+7.3 The Software is a download tool and is not responsible for any content You download. You provide the sources for downloaded content and bear sole responsibility for assessing its legality, accuracy, completeness, and safety.
+7.4 The Author is not liable for any data loss, hardware damage, or other damage that may result from using the Software. You should maintain your own data backups.
+7.5 During BT downloads, Your IP address may be visible to other nodes participating in the same torrent network. The Author is not liable for any privacy exposure resulting from this protocol characteristic.
+
+────────────────────────────────
+
+8. Limitation of Liability
+
+8.1 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS, DATA, BUSINESS, OR GOODWILL, ARISING OUT OF OR RELATING TO THE USE OF, OR INABILITY TO USE, THE SOFTWARE, HOWEVER CAUSED AND UNDER ANY THEORY OF LIABILITY (WHETHER IN CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY, OR OTHERWISE), EVEN IF THE AUTHOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+8.2 The Author is not responsible for the behavior, quality, security, or legality of any third-party plugin. Plugins are maintained by, and the responsibility of, their respective developers. You install third-party plugins at your own risk.
+8.3 THE AUTHOR'S MAXIMUM CUMULATIVE LIABILITY ARISING OUT OF OR RELATING TO THIS LICENSE OR THE SOFTWARE SHALL NOT EXCEED THE AMOUNT ACTUALLY PAID BY YOU TO THE AUTHOR FOR THE SOFTWARE. GIVEN THAT THE SOFTWARE IS PROVIDED FREE OF CHARGE, THIS AMOUNT IS ZERO.
+8.4 The liability limitations in this Section 8 shall apply to the maximum extent permitted by applicable law and shall not apply where prohibited by mandatory provisions of law.
+
+────────────────────────────────
+
+9. User Responsibility
+
+9.1 You bear full legal responsibility for all content downloaded, transmitted, or accessed using the Software.
+9.2 You should independently assess the copyright status and legality of downloaded content. If You are unsure whether content may be lawfully downloaded, do not download it.
+9.3 You are responsible for protecting your own privacy and network security. Appropriate security measures are recommended when using BT functionality.
+9.4 Any legal disputes or claims arising from Your use of the Software shall be handled and borne by You, and the Author shall have no involvement or liability.
+
+────────────────────────────────
+
+10. Plugin System
+
+10.1 The Software includes a plugin system that allows installation of third-party plugins.
+10.2 The copyright and responsibility for any third-party plugin belong to its respective developer. The Author makes no warranty and assumes no responsibility for the content, functionality, security, or legality of any third-party plugin.
+10.3 Official plugins developed and maintained by the Author are also subject to this License.
+
+────────────────────────────────
+
+11. Termination
+
+11.1 You may stop using and delete the Software at any time.
+11.2 The Author may revoke or terminate this License, effective immediately and without notice, if You breach any term of this License. Upon termination, You shall immediately cease all use of the Software and permanently delete the Software and all copies in your possession or control.
+11.3 The Author may also terminate this License at any time for any or no cause by providing notice.
+11.4 Upon termination, Sections 2 (Copyright), 4 (Restrictions), 7 (Disclaimer), 8 (Limitation of Liability), 9 (User Responsibility), 10 (Plugin System), 12 (Governing Law), and 13 (General) shall survive and remain in full force and effect.
+
+────────────────────────────────
+
+12. Governing Law and Dispute Resolution
+
+12.1 The interpretation of this License and the resolution of any dispute shall be governed by the laws of the People's Republic of China, without regard to its conflict-of-laws principles.
+12.2 Any dispute arising out of or relating to this License or the Software shall first be resolved through amicable negotiation between the parties. If negotiation fails, either party may bring a lawsuit before a competent people's court having jurisdiction at the Author's location.
+12.3 Where the mandatory provisions of the law of your country or region conflict with any term of this License, such mandatory provisions shall prevail with respect to that conflict only, and the remaining terms shall remain in full force and effect.
+
+────────────────────────────────
+
+13. General Provisions
+
+13.1 Entire Agreement. This License, together with the Disclaimer referenced herein, constitutes the entire and exclusive agreement between the Author and You with respect to the Software and supersedes all prior or contemporaneous understandings, communications, or agreements, whether oral or written, regarding such subject matter.
+13.2 Severability. If any provision of this License is held to be invalid, illegal, or unenforceable by a court of competent jurisdiction, such provision shall be modified to the minimum extent necessary to make it valid and enforceable, or if it cannot be so modified, shall be severed, and the remaining provisions shall remain in full force and effect.
+13.3 No Waiver. No failure or delay by the Author in exercising any right under this License shall operate as a waiver of that or any other right.
+13.4 Assignment. You may not assign, transfer, or sublicense this License or any rights hereunder, by operation of law or otherwise, without the prior written consent of the Author. Any attempted assignment in violation of this Section is void. The Author may assign this License freely.
+13.5 Relationship. The parties are independent contractors. Nothing in this License creates any agency, partnership, or joint venture between the parties.
+13.6 Headings. Section headings are for convenience only and have no legal effect.
+13.7 Amendments. This License may be amended by the Author only as provided in Section 5.
+
+────────────────────────────────
+
+Contact and Copyright
+
+Copyright © 2026 victor.lai <victor.lai@foxmail.com>. All rights reserved.
+
+For any questions, suggestions, or legal matters, please contact:
+Email: victor.lai@foxmail.com

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "com.basin.player",
+    "name": "Basin Player Core",
+    "version": "0.0.1",
+    "description": "Basin 官方重量级媒体播放核心。app 内置轻量 HTML5 播放器（几百 KB，基础播放）；本插件是完整能力的播放核心：自动识别软解/硬解、支持 MKV/HEVC/AV1/DTS 等几乎所有格式、字幕/音轨切换、截图、0-3x 倍速精密控制、边下边播分段缓冲。基于 sidecar 进程隔离运行，体积约数十 MB。MVP 阶段用纯内存状态机模拟（fakeplayer），后续切换到 libmpv 真实解码。",
+    "author": "Basin Team",
+    "homepage": "https://github.com/the-no-space/basin",
+    "license": "MIT",
+    "capabilities": [
+      "media.player.video",
+      "media.player.audio",
+      "media.subtitle.load",
+      "media.screenshot",
+      "media.rate.control",
+      "media.volume.control"
+    ],
+    "runtime": "sidecar",
+    "entry": "basin-plugin-player",
+    "min_host_version": "0.0.1",
+    "changelog": "初始版本：sidecar 化的 fakeplayer，纯内存模拟。后续切换 libmpv 真实硬解。",
+    "platforms": {
+      "darwin-arm64": {
+        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.1/player-0.0.1-darwin-arm64.zip",
+        "sha256": "d42ad0bf82f76310e0d19bb7f0af9ede8532cd72362a450614f92bf2af43884e"
+      },
+      "darwin-amd64": {
+        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.1/player-0.0.1-darwin-amd64.zip",
+        "sha256": "8fa370fb9c292fb493dd26d776dc5b90bf729852769a476b714fc22f1e4326f9"
+      },
+      "windows-amd64": {
+        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.1/player-0.0.1-windows-amd64.zip",
+        "sha256": "5b12b9cb1b65b9f5a04e1e889797c4c4202c2bca8deb7aa81c743c5d7641d8e7"
+      },
+      "linux-amd64": {
+        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.1/player-0.0.1-linux-amd64.zip",
+        "sha256": "f474f2d6c48cc378b8985db90b28f9bffaade0cbe210418410d6a8895d00d75d"
+      }
+    }
+  }
+]

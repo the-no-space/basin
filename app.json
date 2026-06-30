@@ -1,0 +1,24 @@
+{
+  "version": "0.0.1",
+  "releaseDate": "2026-06-30",
+  "releaseNotes": {
+    "zh": "首个公开版本 · HTTP 直链下载、任务管理、命令面板、暗/亮主题、中英双语、EULA 门禁、插件系统（player sidecar）",
+    "en": "First public release · HTTP direct download, task management, command palette, dark/light theme, bilingual ZH/EN, EULA gate, plugin system (player sidecar)"
+  },
+  "releaseURL": "https://github.com/the-no-space/basin/releases/tag/v0.0.1",
+  "minUpgradeFrom": "",
+  "platforms": {
+    "darwin-universal": {
+      "url": "https://github.com/the-no-space/basin/releases/download/v0.0.1/Basin-0.0.1-darwin-universal.tar.gz",
+      "sha256": "0aab7758055bd99987bdd58e6eb5d2264e1b4fe725e892d57f8cc3f44540c333"
+    },
+    "windows-amd64": {
+      "url": "https://github.com/the-no-space/basin/releases/download/v0.0.1/Basin-0.0.1-windows-amd64.zip",
+      "sha256": "fbf94e3bc0604b86f133c0c54ce94fd0b5d28f649af167b9045ac1a2a79859e8"
+    },
+    "linux-amd64": {
+      "url": "https://github.com/the-no-space/basin/releases/download/v0.0.1/Basin-0.0.1-linux-amd64.tar.gz",
+      "sha256": ""
+    }
+  }
+}

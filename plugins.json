@@ -22,19 +22,19 @@
     "platforms": {
       "darwin-arm64": {
         "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.1/player-0.0.1-darwin-arm64.zip",
-        "sha256": "d42ad0bf82f76310e0d19bb7f0af9ede8532cd72362a450614f92bf2af43884e"
+        "sha256": "6b087d1bad5786ebe21c18cad519e9824ae9fbabf9c4921d9b0cf1c1b8b0fd62"
       },
       "darwin-amd64": {
         "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.1/player-0.0.1-darwin-amd64.zip",
-        "sha256": "8fa370fb9c292fb493dd26d776dc5b90bf729852769a476b714fc22f1e4326f9"
+        "sha256": "a5aee5ac59e45c1690e48b4c001307225966418f3bd1fec5ebaf80b1ccda808a"
       },
       "windows-amd64": {
         "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.1/player-0.0.1-windows-amd64.zip",
-        "sha256": "5b12b9cb1b65b9f5a04e1e889797c4c4202c2bca8deb7aa81c743c5d7641d8e7"
+        "sha256": "a5c272fc28f25b0107d4cf868b33a12b767e8ca26c27ae6ffd96820d580c4ff7"
       },
       "linux-amd64": {
         "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.1/player-0.0.1-linux-amd64.zip",
-        "sha256": "f474f2d6c48cc378b8985db90b28f9bffaade0cbe210418410d6a8895d00d75d"
+        "sha256": "72ebacaa69ddb8a985e205b6472db959cf9a024bd041f2bfecbeafa359f978aa"
       }
     }
   }

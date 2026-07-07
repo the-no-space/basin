@@ -10,15 +10,15 @@
   "platforms": {
     "darwin-universal": {
       "url": "https://github.com/the-no-space/basin/releases/download/v0.0.3/Basin-0.0.3-darwin-universal.tar.gz",
-      "sha256": "PENDING_CI_FILL"
+      "sha256": "0d91fd8e17af4c88cc7dc599a7aaf521dbdcef952104bc8dcfd3fff280785be2"
     },
     "windows-amd64": {
       "url": "https://github.com/the-no-space/basin/releases/download/v0.0.3/Basin-0.0.3-windows-amd64.zip",
-      "sha256": "PENDING_CI_FILL"
+      "sha256": "4eb53016008e315c46700aab821f43e2840b191291f762a280a8360ad832b437"
     },
     "linux-amd64": {
       "url": "https://github.com/the-no-space/basin/releases/download/v0.0.3/Basin-0.0.3-linux-amd64.tar.gz",
-      "sha256": "PENDING_CI_FILL"
+      "sha256": "c209fb4a92726a55dca23dee6728a843345e41645b1d996d39ed67c1434f6529"
     }
   }
 }

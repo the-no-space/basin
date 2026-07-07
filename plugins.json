@@ -37,5 +37,76 @@
         "sha256": "72ebacaa69ddb8a985e205b6472db959cf9a024bd041f2bfecbeafa359f978aa"
       }
     }
+  },
+  {
+    "id": "com.basin.ffmpeg",
+    "name": "Basin FFmpeg Toolkit",
+    "version": "0.0.1",
+    "description": "Basin 官方媒体处理插件（exec 形态）。基于 ffmpeg/ffprobe 静态单文件构建，提供媒体探测（时长/流/编码/HDR 标注）、单帧缩略图（A5 海报墙管道）、预览条 sprite（C1 视频进度条 hover 预览）三类能力。GPL 独立进程调用，闭源主程序不受传染；单次调用 30s 超时，§5b recover 兜底，崩溃降级回 ErrUnsupported。",
+    "author": "Basin Team",
+    "homepage": "https://github.com/the-no-space/basin",
+    "license": "GPL-3.0-or-later",
+    "capabilities": [
+      "media.probe",
+      "media.thumbnail",
+      "media.sprite"
+    ],
+    "runtime": "sidecar",
+    "entry": "bin/basin-ffmpeg-bridge",
+    "min_host_version": "0.0.3",
+    "changelog": "初始版本：ffmpeg/ffprobe exec bridge，media.probe/thumbnail/sprite 三能力。",
+    "platforms": {
+      "darwin-arm64": {
+        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.1/ffmpeg-0.0.1-darwin-arm64.zip",
+        "sha256": "cbe025ef65f08ade856a9a9f1730520490dc0940a73edf2400f2efbbc62ca0e8"
+      },
+      "darwin-amd64": {
+        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.1/ffmpeg-0.0.1-darwin-amd64.zip",
+        "sha256": "dd61356a30bb7a8b91e46aca11c1882853380d69f8bbf03d401ff384db2e44ec"
+      },
+      "windows-amd64": {
+        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.1/ffmpeg-0.0.1-windows-amd64.zip",
+        "sha256": "2622e5eb90e40281c57bc3b0af6e05dbce761bacd22e728e389ff80f76894bf7"
+      },
+      "linux-amd64": {
+        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.1/ffmpeg-0.0.1-linux-amd64.zip",
+        "sha256": "841cb739dcbccaa179d3e5546f99e0cbb525896550dbfc571bb35dc6bd48a548"
+      }
+    }
+  },
+  {
+    "id": "com.basin.ytdlp",
+    "name": "Basin yt-dlp Engine",
+    "version": "0.0.1",
+    "description": "Basin 官方资源嗅探引擎（exec 形态）。基于 yt-dlp 静态单文件构建，提供 engine.resolver（-J dump 解析为 formats/多 P）+ engine.downloader（--newline --progress-template JSON 行真进度）两类能力。Unlicense 独立进程调用，闭源主程序不受传染；单次调用 30s 超时（resolve）/无超时（download，由任务 ctx 控制），§5b recover 兜底，崩溃降级回 ErrNoPlugin。声明依赖 com.basin.ffmpeg（resolve 阶段不强依赖，download 阶段音视频合并需要）。",
+    "author": "Basin Team",
+    "homepage": "https://github.com/the-no-space/basin",
+    "license": "Unlicense",
+    "capabilities": [
+      "engine.resolver",
+      "engine.downloader"
+    ],
+    "runtime": "sidecar",
+    "entry": "bin/basin-ytdlp-bridge",
+    "min_host_version": "0.0.3",
+    "changelog": "初始版本：yt-dlp exec bridge，engine.resolver/downloader 两能力。",
+    "platforms": {
+      "darwin-arm64": {
+        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.1/ytdlp-0.0.1-darwin-arm64.zip",
+        "sha256": "c0dcfafaf42077ce55609630ded372d5cca389085008a51c393b45258d836cc6"
+      },
+      "darwin-amd64": {
+        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.1/ytdlp-0.0.1-darwin-amd64.zip",
+        "sha256": "554012a5fa81541f6b303d715eea9799386c3f7a2416fbab1c545748d2e49adc"
+      },
+      "windows-amd64": {
+        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.1/ytdlp-0.0.1-windows-amd64.zip",
+        "sha256": "a2dc75aed9101b3ce864d01e2eab4cdff4e81ad47fdec5102100635ba079d57a"
+      },
+      "linux-amd64": {
+        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.1/ytdlp-0.0.1-linux-amd64.zip",
+        "sha256": "e8f25abf3e2fc3f3df097a9de4af01c9b9a5c7fb24156ab87ee01f078b815243"
+      }
+    }
   }
 ]

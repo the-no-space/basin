@@ -1,24 +1,24 @@
 {
-  "version": "0.0.1",
-  "releaseDate": "2026-06-30",
+  "version": "0.0.3",
+  "releaseDate": "2026-07-07",
   "releaseNotes": {
-    "zh": "首个公开版本 · HTTP 直链下载、任务管理、命令面板、暗/亮主题、中英双语、EULA 门禁、插件系统（player sidecar）",
-    "en": "First public release · HTTP direct download, task management, command palette, dark/light theme, bilingual ZH/EN, EULA gate, plugin system (player sidecar)"
+    "zh": "0.0.3「文件库与嗅探」——从下载器长成「下完之后」的一等公民 + 资源嗅探下载。\n· 文件库：自动索引/扫描、类型识别（含 magic-byte 兜底）、缩略图与视频海报、三级去重、自动整理规则、存储分析、全局搜索直达库条目、文件操作可撤销（Cmd+Z）。\n· 查看器矩阵：图片（含 EXIF）、文本/Markdown/代码、PDF、压缩包（解压自动避让不覆盖）、音频（ID3 封面/歌词）、种子/磁链（文件树 + 一键转下载）。\n· 视频：mp4 原生元数据 + ffmpeg 插件（海报墙 / 进度条雪碧图预览 / mkv 等格式探测）；「继续观看」跨设备续播。\n· 资源嗅探：yt-dlp 插件解析多清晰度 / 多 P、登录态 cookie（浏览器 cookie / 原生登录窗）、嗅探即下载（须在插件中心安装 yt-dlp 引擎，并本机装有 yt-dlp / ffmpeg）。\n· 插件系统：exec + sidecar 双运行时、官方 ffmpeg / yt-dlp / 播放器插件、sha256 原子安装、按需引导。\n· 其它：计划任务、通知中心、导入导出、完成后校验、全局代理（覆盖下载与嗅探）。",
+    "en": "0.0.3 \"Library & Sniffing\" — grows from a downloader into a first-class \"after the download\" experience + resource sniffing/downloading.\n· Library: auto index/scan, kind detection (with magic-byte fallback), thumbnails & video posters, 3-level dedup, auto-organize rules, storage analysis, global search jump-to-item, undoable file ops (Cmd+Z).\n· Viewers: image (with EXIF), text/Markdown/code, PDF, archives (extract never overwrites), audio (ID3 cover/lyrics), torrent/magnet (file tree + one-click to download).\n· Video: native mp4 metadata + ffmpeg plugin (poster wall / seekbar sprite preview / mkv & other probing); cross-device \"continue watching\".\n· Resource sniffing: yt-dlp plugin resolves multi-quality / multi-part, login cookies (browser cookies / native login window), sniff-then-download (requires installing the yt-dlp engine plugin, with yt-dlp / ffmpeg present on the machine).\n· Plugin system: exec + sidecar runtimes, official ffmpeg / yt-dlp / player plugins, sha256 atomic install, on-demand guidance.\n· Also: scheduled tasks, notification center, import/export, post-completion checksum, global proxy (covers downloads and sniffing)."
   },
-  "releaseURL": "https://github.com/the-no-space/basin/releases/tag/v0.0.1",
+  "releaseURL": "https://github.com/the-no-space/basin/releases/tag/v0.0.3",
   "minUpgradeFrom": "",
   "platforms": {
     "darwin-universal": {
-      "url": "https://github.com/the-no-space/basin/releases/download/v0.0.1/Basin-0.0.1-darwin-universal.tar.gz",
-      "sha256": "42ab3c13c400f373beecb05c2309f4a9437f4be09fc40f3b7b69683779e9087c"
+      "url": "https://github.com/the-no-space/basin/releases/download/v0.0.3/Basin-0.0.3-darwin-universal.tar.gz",
+      "sha256": "PENDING_CI_FILL"
     },
     "windows-amd64": {
-      "url": "https://github.com/the-no-space/basin/releases/download/v0.0.1/Basin-0.0.1-windows-amd64.zip",
-      "sha256": "b835618b6418d01ed7f5a4c347373612ca22c4bace141193a3fe1faeffd53f6c"
+      "url": "https://github.com/the-no-space/basin/releases/download/v0.0.3/Basin-0.0.3-windows-amd64.zip",
+      "sha256": "PENDING_CI_FILL"
     },
     "linux-amd64": {
-      "url": "https://github.com/the-no-space/basin/releases/download/v0.0.1/Basin-0.0.1-linux-amd64.tar.gz",
-      "sha256": "c651b00391381d712f49b773e20c6a80bc8098bf318fdf448a8d32e2c33f6a8c"
+      "url": "https://github.com/the-no-space/basin/releases/download/v0.0.3/Basin-0.0.3-linux-amd64.tar.gz",
+      "sha256": "PENDING_CI_FILL"
     }
   }
 }

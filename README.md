@@ -4,7 +4,7 @@
 
 [![Platforms](https://img.shields.io/badge/platforms-Windows%20%7C%20macOS%20%7C%20Linux-blue)](https://github.com/the-no-space/basin/releases)
 [![License](https://img.shields.io/badge/license-Free%20%2F%20Closed--source-lightgrey)](./LICENSE)
-[![Version](https://img.shields.io/badge/version-v0.0.1-green)](https://github.com/the-no-space/basin/releases/tag/v0.0.1)
+[![Version](https://img.shields.io/badge/version-v0.0.3-green)](https://github.com/the-no-space/basin/releases/tag/v0.0.3)
 
 ---
 
@@ -14,12 +14,13 @@
 
 **Basin 归潮** 是一款跨平台（Windows / macOS / Linux）下载器桌面应用，采用 Wails（Go 内核 + React 前端）构建。主要能力：
 
-- **HTTP 直链下载**：多段并行、断点续传。
-- **BitTorrent / 磁力链接**：完整种子与磁力支持，文件级选择与优先级。
-- **网盘等扩展来源**（视版本支持）。
+- **多协议下载**：HTTP 直链（多段并行、断点续传）、BitTorrent / 磁力链接（文件级选择与优先级）。
+- **资源嗅探下载**：借官方 yt-dlp 插件解析网页多清晰度 / 多 P，支持登录态 cookie，嗅探即下载。
+- **文件库**：下载完成后自动索引——类型识别、缩略图与视频海报、去重、自动整理规则、存储分析、全局搜索直达、文件操作可撤销。
+- **查看器矩阵**：图片（EXIF）、文本 / Markdown / 代码、PDF、压缩包、音频（ID3 封面/歌词）、种子（文件树 + 一键转下载）；视频「继续观看」跨设备续播。
 - **边下边播**：内置轻量播放器，下载即可预览。
-- **插件系统**：可安装的重量级播放器等扩展，首个官方插件为 **Basin Player Core**。
-- **跨平台**：同一套体验覆盖三大桌面平台。
+- **插件系统**：exec + sidecar 双运行时的可安装扩展，官方插件含 **Player Core**（播放）、**FFmpeg Toolkit**（海报/雪碧图/探测）、**yt-dlp Engine**（嗅探下载）。
+- **跨平台**：同一套体验覆盖 Windows / macOS / Linux。
 
 ### 下载与安装
 
@@ -29,8 +30,7 @@
 
 | 平台 | 资产文件名 |
 | --- | --- |
-| macOS（Apple Silicon） | `Basin-<ver>-darwin-arm64.tar.gz` |
-| macOS（Intel） | `Basin-<ver>-darwin-amd64.tar.gz` |
+| macOS（Apple Silicon + Intel 通用包） | `Basin-<ver>-darwin-universal.tar.gz` |
 | Windows | `Basin-<ver>-windows-amd64.zip` |
 | Linux | `Basin-<ver>-linux-amd64.tar.gz` |
 
@@ -53,9 +53,13 @@
 
 ### 插件
 
-应用通过本仓库 `main` 分支的 [`plugins.json`](./plugins.json) 获取官方插件索引。你可以在应用内的插件市场安装、更新、卸载插件。
+应用通过本仓库 `main` 分支的 [`plugins.json`](./plugins.json) 获取官方插件索引。你可以在应用内的插件市场安装、更新、卸载插件；能力缺失时应用会按需引导你安装对应插件。
 
-首个官方插件：**Basin Player Core** —— 一个重量级播放器，提供比内置轻量播放器更完整的播放能力。
+官方插件：
+
+- **Player Core**：重量级播放器，比内置轻量播放器更完整的播放能力。
+- **FFmpeg Toolkit**：视频海报墙 / 进度条雪碧图预览 / mkv 等格式探测。需本机装有 `ffmpeg`。
+- **yt-dlp Engine**：资源嗅探与下载（多清晰度 / 多 P / 登录态）。需本机装有 `yt-dlp`。
 
 ### 许可证
 
@@ -107,12 +111,13 @@
 
 **Basin 归潮** is a cross-platform (Windows / macOS / Linux) downloader desktop application built with Wails (Go core + React frontend). Key capabilities:
 
-- **HTTP direct links**: multi-segment parallel downloads with resume support.
-- **BitTorrent / magnet links**: full torrent and magnet support, per-file selection and priority.
-- **Extended sources** such as cloud drives (where supported).
+- **Multi-protocol downloads**: HTTP direct links (multi-segment parallel, resume) and BitTorrent / magnet links (per-file selection and priority).
+- **Resource sniffing & download**: via the official yt-dlp plugin — resolve multi-quality / multi-part web sources, with login cookies; sniff then download.
+- **File library**: auto-indexed once a download completes — kind detection, thumbnails & video posters, dedup, auto-organize rules, storage analysis, global search jump-to-item, undoable file ops.
+- **Viewer matrix**: image (EXIF), text / Markdown / code, PDF, archives, audio (ID3 cover/lyrics), torrent (file tree + one-click to download); cross-device "continue watching" for video.
 - **Stream while downloading**: built-in lightweight player for instant preview.
-- **Plugin system**: installable heavyweight player and other extensions. First official plugin: **Basin Player Core**.
-- **Cross-platform**: a consistent experience across the three major desktop platforms.
+- **Plugin system**: installable extensions on exec + sidecar runtimes. Official plugins: **Player Core** (playback), **FFmpeg Toolkit** (posters/sprites/probing), **yt-dlp Engine** (sniffing & download).
+- **Cross-platform**: a consistent experience across Windows / macOS / Linux.
 
 ### Download & Installation
 
@@ -122,8 +127,7 @@ Download the asset for your platform from the [Releases page](https://github.com
 
 | Platform | Asset filename |
 | --- | --- |
-| macOS (Apple Silicon) | `Basin-<ver>-darwin-arm64.tar.gz` |
-| macOS (Intel) | `Basin-<ver>-darwin-amd64.tar.gz` |
+| macOS (universal — Apple Silicon + Intel) | `Basin-<ver>-darwin-universal.tar.gz` |
 | Windows | `Basin-<ver>-windows-amd64.zip` |
 | Linux | `Basin-<ver>-linux-amd64.tar.gz` |
 
@@ -146,9 +150,13 @@ On launch, the app automatically fetches [`app.json`](./app.json) from the `main
 
 ### Plugins
 
-The app fetches the official plugin index from [`plugins.json`](./plugins.json) on the `main` branch of this repository. You can install, update, and uninstall plugins from the in-app plugin marketplace.
+The app fetches the official plugin index from [`plugins.json`](./plugins.json) on the `main` branch of this repository. You can install, update, and uninstall plugins from the in-app plugin marketplace; when a capability is missing, the app guides you to install the matching plugin.
 
-First official plugin: **Basin Player Core** — a heavyweight player providing fuller playback capabilities than the built-in lightweight player.
+Official plugins:
+
+- **Player Core** — a heavyweight player with fuller playback than the built-in lightweight one.
+- **FFmpeg Toolkit** — video poster wall / seekbar sprite preview / mkv & other format probing. Requires `ffmpeg` on the machine.
+- **yt-dlp Engine** — resource sniffing & download (multi-quality / multi-part / login). Requires `yt-dlp` on the machine.
 
 ### License
 

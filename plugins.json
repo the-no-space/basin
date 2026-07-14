@@ -2,11 +2,11 @@
   {
     "id": "com.basin.player",
     "name": "Basin Player Core",
-    "version": "0.0.1",
-    "description": "Basin 官方重量级媒体播放核心。app 内置轻量 HTML5 播放器（几百 KB，基础播放）；本插件是完整能力的播放核心：自动识别软解/硬解、支持 MKV/HEVC/AV1/DTS 等几乎所有格式、字幕/音轨切换、截图、0-3x 倍速精密控制、边下边播分段缓冲。基于 sidecar 进程隔离运行，体积约数十 MB。MVP 阶段用纯内存状态机模拟（fakeplayer），后续切换到 libmpv 真实解码。",
+    "version": "0.1.0",
+    "hidden": true,
+    "description": "Basin 官方重量级媒体播放核心。app 内置轻量 HTML5 播放器（几百 KB）；本插件是完整能力核心：自动软解/硬解、MKV/HEVC/AV1/DTS 全格式、字幕/音轨切换、截图、0-3x 倍速精密控制、边下边播分段缓冲。",
     "author": "Basin Team",
-    "homepage": "https://github.com/the-no-space/basin",
-    "license": "MIT",
+    "homepage": "https://github.com/10000ms/basin",
     "capabilities": [
       "media.player.video",
       "media.player.audio",
@@ -15,28 +15,26 @@
       "media.rate.control",
       "media.volume.control"
     ],
-    "runtime": "sidecar",
-    "entry": "basin-plugin-player",
-    "min_host_version": "0.0.1",
-    "changelog": "初始版本：sidecar 化的 fakeplayer，纯内存模拟。后续切换 libmpv 真实硬解。",
     "platforms": {
-      "darwin-arm64": {
-        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.1/player-0.0.1-darwin-arm64.zip",
-        "sha256": "6b087d1bad5786ebe21c18cad519e9824ae9fbabf9c4921d9b0cf1c1b8b0fd62"
-      },
       "darwin-amd64": {
-        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.1/player-0.0.1-darwin-amd64.zip",
-        "sha256": "a5aee5ac59e45c1690e48b4c001307225966418f3bd1fec5ebaf80b1ccda808a"
+        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/player-0.0.1-darwin-amd64.zip",
+        "sha256": "409ad8b8faa4854798723cdb1e65456abfdca4261a32436f9a69e56264af6b79"
       },
-      "windows-amd64": {
-        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.1/player-0.0.1-windows-amd64.zip",
-        "sha256": "a5c272fc28f25b0107d4cf868b33a12b767e8ca26c27ae6ffd96820d580c4ff7"
+      "darwin-arm64": {
+        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/player-0.0.1-darwin-arm64.zip",
+        "sha256": "2b46991d158cc729c924a01bbd00f043bf5491989e5e77c20a583b2999500950"
       },
       "linux-amd64": {
-        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.1/player-0.0.1-linux-amd64.zip",
-        "sha256": "72ebacaa69ddb8a985e205b6472db959cf9a024bd041f2bfecbeafa359f978aa"
+        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/player-0.0.1-linux-amd64.zip",
+        "sha256": "cc236301671fc88381582c2e348086d65535d724d262b7dbb43cb14c16b8166e"
+      },
+      "windows-amd64": {
+        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/player-0.0.1-windows-amd64.zip",
+        "sha256": "ecd9b85d1b71b6ed664c3fb821303e6054652b6ec16255f2f81e47677531ec33"
       }
-    }
+    },
+    "min_host_version": "0.1.0",
+    "changelog": "初始版本：sidecar 化的 fakeplayer，纯内存模拟"
   },
   {
     "id": "com.basin.ffmpeg",
@@ -53,25 +51,30 @@
     ],
     "runtime": "sidecar",
     "entry": "bin/basin-ffmpeg-bridge",
-    "min_host_version": "0.0.3",
-    "changelog": "初始版本：ffmpeg/ffprobe exec bridge，media.probe/thumbnail/sprite 三能力。",
     "platforms": {
-      "darwin-arm64": {
-        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.1/ffmpeg-0.0.1-darwin-arm64.zip",
-        "sha256": "cbe025ef65f08ade856a9a9f1730520490dc0940a73edf2400f2efbbc62ca0e8"
-      },
       "darwin-amd64": {
-        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.1/ffmpeg-0.0.1-darwin-amd64.zip",
-        "sha256": "dd61356a30bb7a8b91e46aca11c1882853380d69f8bbf03d401ff384db2e44ec"
+        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/ffmpeg-0.0.1-darwin-amd64.zip",
+        "sha256": "8f47c08e30efc8e05f9cedcbb1155927e670a7107079c7cdf7473e12ca8dfc56"
       },
-      "windows-amd64": {
-        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.1/ffmpeg-0.0.1-windows-amd64.zip",
-        "sha256": "2622e5eb90e40281c57bc3b0af6e05dbce761bacd22e728e389ff80f76894bf7"
+      "darwin-arm64": {
+        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/ffmpeg-0.0.1-darwin-arm64.zip",
+        "sha256": "9974674018b81932f4e5b453fe30a8d416e348980b35e0f007e57179c0385b9f"
       },
       "linux-amd64": {
-        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.1/ffmpeg-0.0.1-linux-amd64.zip",
-        "sha256": "841cb739dcbccaa179d3e5546f99e0cbb525896550dbfc571bb35dc6bd48a548"
+        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/ffmpeg-0.0.1-linux-amd64.zip",
+        "sha256": "ccd07a656b1486c06a6e167bb90ea14a741e4a98dd9506e148c808404785ca74"
+      },
+      "windows-amd64": {
+        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/ffmpeg-0.0.1-windows-amd64.zip",
+        "sha256": "f2a14cfb993751cde5d342013df91ecabf93d3096250964cdda52b88d776b5a3"
       }
+    },
+    "min_host_version": "0.0.3",
+    "changelog": "初始版本：ffmpeg/ffprobe exec bridge，media.probe/thumbnail/sprite 三能力",
+    "manifestSummary": {
+      "runtime": "sidecar",
+      "minHostVersion": "0.0.3",
+      "maxHostVersion": "0.1.0"
     }
   },
   {
@@ -88,25 +91,136 @@
     ],
     "runtime": "sidecar",
     "entry": "bin/basin-ytdlp-bridge",
-    "min_host_version": "0.0.3",
-    "changelog": "初始版本：yt-dlp exec bridge，engine.resolver/downloader 两能力。",
     "platforms": {
-      "darwin-arm64": {
-        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.1/ytdlp-0.0.1-darwin-arm64.zip",
-        "sha256": "c0dcfafaf42077ce55609630ded372d5cca389085008a51c393b45258d836cc6"
-      },
       "darwin-amd64": {
-        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.1/ytdlp-0.0.1-darwin-amd64.zip",
-        "sha256": "554012a5fa81541f6b303d715eea9799386c3f7a2416fbab1c545748d2e49adc"
+        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/ytdlp-0.0.1-darwin-amd64.zip",
+        "sha256": "a885b61729a57c756406cae7b04ddbec5ef14a7fdef35e9d134154bd18c0ab50"
       },
-      "windows-amd64": {
-        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.1/ytdlp-0.0.1-windows-amd64.zip",
-        "sha256": "a2dc75aed9101b3ce864d01e2eab4cdff4e81ad47fdec5102100635ba079d57a"
+      "darwin-arm64": {
+        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/ytdlp-0.0.1-darwin-arm64.zip",
+        "sha256": "2a7fddfe9b731ba740e192c54bec53aa896300cc5505f6290aea44b3b4dd7e40"
       },
       "linux-amd64": {
-        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.1/ytdlp-0.0.1-linux-amd64.zip",
-        "sha256": "e8f25abf3e2fc3f3df097a9de4af01c9b9a5c7fb24156ab87ee01f078b815243"
+        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/ytdlp-0.0.1-linux-amd64.zip",
+        "sha256": "834cd62f6acb76c179decb83796cdca341b25f8d7d92e299bbb1669d446fdd16"
+      },
+      "windows-amd64": {
+        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/ytdlp-0.0.1-windows-amd64.zip",
+        "sha256": "7e968f4ddf7e0505975f0179459e38075f3d2815723d04393eaf7d879cde022f"
       }
+    },
+    "min_host_version": "0.0.3",
+    "changelog": "初始版本：yt-dlp exec bridge，engine.resolver/downloader 两能力",
+    "manifestSummary": {
+      "runtime": "sidecar",
+      "minHostVersion": "0.0.3",
+      "maxHostVersion": "0.1.0"
+    }
+  },
+  {
+    "id": "com.basin.office-engine",
+    "name": "Office 引擎",
+    "version": "0.1.0",
+    "description": "Basin 官方 Office 文档引擎（asset 形态，纯资源无进程）。内含 ZetaOffice（LibreOffice 的 WebAssembly 构建，MPL-2.0）+ zetajs 桥接层（MIT）+ Noto Sans CJK SC 中文文档字体（OFL-1.1）。安装后文件库可直接打开并编辑 doc/docx/xls/xlsx/ppt/pptx/odt/ods/odp——完整的 Writer/Calc/Impress 编辑器在本机渲染，文档不出本地；保存原子写 + .bak 后悔药。",
+    "author": "Basin Team",
+    "homepage": "https://github.com/the-no-space/basin",
+    "license": "MPL-2.0 AND MIT AND OFL-1.1",
+    "capabilities": [
+      "office.engine"
+    ],
+    "runtime": "asset",
+    "platforms": {
+      "all": {
+        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/office-engine-0.1.0-all.zip",
+        "sha256": "a3bdf432a83223a1f3c6b2680373a91f4305294da1db7b6e0d44a11cbea37bcd"
+      }
+    },
+    "min_host_version": "0.0.3",
+    "changelog": "初始版本：ZetaOffice/LOWA 引擎 + zetajs + CJK 字体，asset 资源插件（WASM 全平台同一份 zip）",
+    "manifestSummary": {
+      "runtime": "asset",
+      "minHostVersion": "0.0.3",
+      "maxHostVersion": "0.1.0"
+    }
+  },
+  {
+    "id": "com.basin.llama-runtime",
+    "name": "Basin llama.cpp Runtime",
+    "version": "0.0.1",
+    "description": "Basin 官方本地 LLM 推理运行时（exec 形态）。基于 llama.cpp 的 llama-server，负责拉起并管理 llama-server 进程（llama-server -m model.gguf --mmproj mmproj.gguf），对外暴露 llama.start/stop/status 三类能力。Host 侧 AI 适配器通过本插件获得本地 OpenAI 兼容端点，实现离线 chat/embedding 推理。MIT 独立进程调用，单次调用 30s 超时，§5b recover 兜底，崩溃降级回 ErrUnsupported。",
+    "author": "Basin Team",
+    "homepage": "https://github.com/the-no-space/basin",
+    "license": "MIT",
+    "capabilities": [
+      "llama.runtime",
+      "llama.start",
+      "llama.stop",
+      "llama.status"
+    ],
+    "runtime": "sidecar",
+    "entry": "bin/basin-llama-runtime-bridge",
+    "platforms": {
+      "darwin-amd64": {
+        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/llama-runtime-0.0.1-darwin-amd64.zip",
+        "sha256": "22ae8d39cfd0f6ab1c9feb26116094b80bfd406c4f1b942e8ac8628eb58790b1"
+      },
+      "darwin-arm64": {
+        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/llama-runtime-0.0.1-darwin-arm64.zip",
+        "sha256": "20efb5dd5e32e88d767f0046e1d930eaadc0be80346c6d17cf38902036c9d65b"
+      },
+      "linux-amd64": {
+        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/llama-runtime-0.0.1-linux-amd64.zip",
+        "sha256": "08e7b68bc8c5494f2182d3c9a14ae88da6426d2171ecdf090d78b37712e0e1a3"
+      },
+      "windows-amd64": {
+        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/llama-runtime-0.0.1-windows-amd64.zip",
+        "sha256": "98880bc260bf25d7e9bd61efca95f3a48dae2f833ba0472356c535ce9739cbf8"
+      }
+    },
+    "min_host_version": "0.0.3",
+    "changelog": "初始版本：llama-server 进程管理 bridge，llama.start/stop/status 三能力",
+    "manifestSummary": {
+      "runtime": "sidecar",
+      "minHostVersion": "0.0.3",
+      "maxHostVersion": "0.1.0"
+    }
+  },
+  {
+    "id": "com.basin.rclone",
+    "name": "Basin Rclone 云存储引擎",
+    "version": "0.0.1",
+    "description": "Basin 官方云存储同步引擎（sidecar 形态，rclone rcd 常驻子进程）。内含 rclone 静态单文件构建（MIT），支持 40+ 云存储后端。Host 以 sidecar runtime 启动 rclone rcd（http-rcd protocol），经回环 HTTP RC daemon 驱动远端存储操作。独立进程调用，闭源主程序不受传染。",
+    "author": "Basin Team",
+    "homepage": "https://github.com/the-no-space/basin",
+    "license": "MIT",
+    "capabilities": [
+      "cloud.sync",
+      "cloud.mount",
+      "cloud.copy",
+      "cloud.list"
+    ],
+    "runtime": "sidecar",
+    "entry": "bin/rclone",
+    "args": [
+      "rcd",
+      "--rc-addr",
+      "127.0.0.1:0",
+      "--rc-no-auth",
+      "--rc-serve"
+    ],
+    "protocol": "http-rcd",
+    "platforms": {
+      "linux-amd64": {
+        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/rclone-0.0.1-linux-amd64.zip",
+        "sha256": "903f403c23165e2b32bf9e959d9b12eea9e367b1d0935aa171bfded7b7ee5bfb"
+      }
+    },
+    "min_host_version": "0.0.3",
+    "changelog": "初始版本：rclone v1.74.4 sidecar 插件（http-rcd protocol）",
+    "manifestSummary": {
+      "runtime": "sidecar",
+      "minHostVersion": "0.0.3",
+      "maxHostVersion": "0.1.0"
     }
   }
 ]

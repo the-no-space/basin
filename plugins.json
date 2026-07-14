@@ -18,19 +18,19 @@
     "platforms": {
       "darwin-amd64": {
         "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/player-0.0.1-darwin-amd64.zip",
-        "sha256": "6f4ee20e6501a4c84284369516665cc5531db7056c4adb6ffd8658c838d0353a"
+        "sha256": "e0687b7f45908a292f28d656efbf260633a560ffa3c7607e6a51ec1370c30ffe"
       },
       "darwin-arm64": {
         "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/player-0.0.1-darwin-arm64.zip",
-        "sha256": "e88d226547724317e743f0a2aedb79d6ad331e4a0e4e1664432d5b2785ae2ded"
+        "sha256": "bd078e4fb3841398194197ab21f3289686d3aa15d294dd5a30a9f8b7e3943511"
       },
       "linux-amd64": {
         "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/player-0.0.1-linux-amd64.zip",
-        "sha256": "4e634dcf28d5fe600886a249c455e46e70d3882030eaf2e9dcce3f94d9833f47"
+        "sha256": "32b7272e3c8ef3dd162c4bdf9b988089971c6cbe7353355988d73ca1a46ca9d9"
       },
       "windows-amd64": {
         "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/player-0.0.1-windows-amd64.zip",
-        "sha256": "276b5a4054ed76d1273ef30cc76be4ec9a96728a23ac1ae624a85f837ec11172"
+        "sha256": "e57af1420e3e7929c7da765b5057d5d4af62d92f56e576abe445aa1827861cdb"
       }
     },
     "min_host_version": "0.1.0",
@@ -54,19 +54,19 @@
     "platforms": {
       "darwin-amd64": {
         "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/ffmpeg-0.0.1-darwin-amd64.zip",
-        "sha256": "a568f1172577d292a0253598a771cdebc6895e2945d0f874712f6089375b2a93"
+        "sha256": "6eb3a5c7770933d4e1f7fd970d44dd40c897b88d8c13c953b8165dddd2b7c421"
       },
       "darwin-arm64": {
         "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/ffmpeg-0.0.1-darwin-arm64.zip",
-        "sha256": "6b281e5ca04571ff0d5ba9045fdc5585fd919f8e2c9a096fdb589f0dda2ce4cf"
+        "sha256": "dd01dfe7c40d46c80e0f8b75d61698e56ab089b618953aa52bf2273cc0012efd"
       },
       "linux-amd64": {
         "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/ffmpeg-0.0.1-linux-amd64.zip",
-        "sha256": "f7e006befba6bb0ed9fa50491dee64e6fa12ac475f94f5b46c1ab64820beaad2"
+        "sha256": "60977fa0797814b7152cff0be823c4f6030e03cb5be2c9f3bdea9bee0250a6cc"
       },
       "windows-amd64": {
         "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/ffmpeg-0.0.1-windows-amd64.zip",
-        "sha256": "460d5807050242d7afbb3caf0b2f2ecbaf8974811c03cbed426827b5b373b1cb"
+        "sha256": "0991afeb2556d60d769389545befb96a2a86d64bbb2a7e0c103e5d4d69f59b9a"
       }
     },
     "min_host_version": "0.0.3",
@@ -94,19 +94,19 @@
     "platforms": {
       "darwin-amd64": {
         "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/ytdlp-0.0.1-darwin-amd64.zip",
-        "sha256": "65200477a309eb016bdc94a27c0f8bc20fa18f25b93e066413304a224e632f51"
+        "sha256": "efa1843bd81e828bfab5d3650e0656a234cbbdf4955ef0159347f8234ff29cc4"
       },
       "darwin-arm64": {
         "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/ytdlp-0.0.1-darwin-arm64.zip",
-        "sha256": "14ddb5e6d00dab9bf83567080d9eaa639661f780fffeaec56171669483d9e853"
+        "sha256": "ee361b0aa14fa45179cead2f7aeba04f3ec0f7fa280f5289e3247d8e4dd64c6b"
       },
       "linux-amd64": {
         "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/ytdlp-0.0.1-linux-amd64.zip",
-        "sha256": "7d6a0816ee6ca70d5d9ce311fb0f9f388ba7bca61005486beb7e9b635678b4ce"
+        "sha256": "ed8a9c4e3a870a80f59ea0567e0cf289cb7c3d3e4b0d7fb6f18466f2ba19d976"
       },
       "windows-amd64": {
         "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/ytdlp-0.0.1-windows-amd64.zip",
-        "sha256": "5c786ed75a493de0bc4dd93f0f25c164941a693cabdfa2c3650f5406f785fb4e"
+        "sha256": "88b554576271b091d29299133f125c948351fb88844705b0b3c9b2ed45b1591e"
       }
     },
     "min_host_version": "0.0.3",
@@ -132,7 +132,7 @@
     "platforms": {
       "all": {
         "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/office-engine-0.1.0-all.zip",
-        "sha256": "8b15827727f2c8b849e1b8bb4fd63dbeb2efecbc363f4a26ea94a0541c1bcc5a"
+        "sha256": "f56a977737cc0d98b1ad22459b548f05d776a8c2eeb7d3c412724a8a461cf531"
       }
     },
     "min_host_version": "0.0.3",
@@ -162,19 +162,23 @@
     "platforms": {
       "darwin-amd64": {
         "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/llama-runtime-0.0.1-darwin-amd64.zip",
-        "sha256": "aa1eef5d649140df40f045551284508bf348a20d465a25ab3317b6e76c0a099e"
+        "sha256": "4a4aa008cbad8c5749a440ea11654b60cbeb9dd4b8697e4c10735f3870c46fe1"
       },
       "darwin-arm64": {
         "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/llama-runtime-0.0.1-darwin-arm64.zip",
-        "sha256": "2f2e788b61b85459bc5cc1669169b7ec79bfc93802029549bdda2141ac9bfa75"
+        "sha256": "769794694b376968c93414995964efa974384653be48537e6c686b4e7f0321f5"
       },
       "linux-amd64": {
         "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/llama-runtime-0.0.1-linux-amd64.zip",
-        "sha256": "e473896af127898df67a1a30d8fe2affb2931599209f20ac88fe44cfaccfa192"
+        "sha256": "f294ef750e8834a55a45fa37e12081fbb7f688ca272197915f3fd1fba009719c"
+      },
+      "linux-arm64": {
+        "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/llama-runtime-0.0.1-linux-arm64.zip",
+        "sha256": "ddc484b15c764d6fb7cbcde9b72984958e89fc8acb673de6e7716975f496cdd8"
       },
       "windows-amd64": {
         "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/llama-runtime-0.0.1-windows-amd64.zip",
-        "sha256": "52a28165db77356ecd27846a3dbc8c0c431eaa7f81fffa39187c17bd8fea7327"
+        "sha256": "78db72b85f65284eb4aa68995fbd965f50d92fac31de2cc001183ac92089c92f"
       }
     },
     "min_host_version": "0.0.3",
@@ -212,23 +216,23 @@
     "platforms": {
       "darwin-amd64": {
         "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/rclone-0.0.1-darwin-amd64.zip",
-        "sha256": "437f11e7417ce388197730a7f5b456ad649dc9a266e5332043abfb1cbc0e5f5e"
+        "sha256": "fd1d825618e38a618aa935ba76f364ba205d4a04a6b5d1418e4a696ee087d02c"
       },
       "darwin-arm64": {
         "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/rclone-0.0.1-darwin-arm64.zip",
-        "sha256": "b8e553c31f0b25ed68edb2faea3b5174417a9e6526766550b2c108fd7de436a1"
+        "sha256": "9fca0dfd3b8b2b7761b4c4c637ef31fdcffe46b354fc68a18451134cc890e120"
       },
       "linux-amd64": {
         "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/rclone-0.0.1-linux-amd64.zip",
-        "sha256": "5882845b0731768a22e5e490680670f7f33654094d9f0a18e58156731b164d97"
+        "sha256": "e08acc3b94efd100656cb2ffe47b9150c6fce7905fc3180716badf7bec695904"
       },
       "linux-arm64": {
         "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/rclone-0.0.1-linux-arm64.zip",
-        "sha256": "f9391436025e65cf5c60ae51cca2d9ef4c2de846c937b2dde1d8c84e59fd767f"
+        "sha256": "7bba3f626ca2ca13cb57e00b3048f2f9cf0590826f97f9a79857dadbb8b7b03f"
       },
       "windows-amd64": {
         "url": "https://github.com/the-no-space/basin/releases/download/plugin-v0.0.4/rclone-0.0.1-windows-amd64.zip",
-        "sha256": "2c2288775e63c2a296468a135d443de057584acb76566ff04876029913260c5b"
+        "sha256": "f16b04bdb0ee2eda7064b1f6ed5503eb7a45eadbe2a871b309c75e433b79766c"
       }
     },
     "min_host_version": "0.0.3",
